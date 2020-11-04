@@ -1,0 +1,80 @@
+html, body {
+  background: url(simsons.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 100%
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin:0;
+}
+
+#open-modal {
+  background-color: whitesmoke;
+}
+
+#close-modal:hover {
+  font-size: 17px;
+  background-color: rgb(168, 37, 124);
+  color: white;
+  transition: 0.3s;
+}
+
+#close-modal:hover {
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+#open-modal:hover {
+  font-size: 17px;
+  background-color: rgb(223, 71, 0);
+  color: white;
+  transition: 0.3s;
+}
+
+#overlay {
+  top: -100px;
+  animation: drop 0.4s ease forwards;
+  width: inherit;
+  height: 60%;
+  margin: 0;
+  background-color: burlywood;
+  border: black 1px solid;
+  border-radius: 2px;
+}
+
+@keyframes drop {
+  0% {}
+  10% {
+    transform: translateY(50px)
+  }
+}
+
+#modal {
+  margin-top: 50px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#myVideo {
+  padding: 5px 30px;
+  margin: 0 auto;
+}
+
