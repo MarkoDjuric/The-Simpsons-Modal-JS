@@ -1,6 +1,6 @@
 # The-Simpsons-Modal-JS.github.io
 
-This simple project is javascript modal with very funny video :)  (https://markodjuric.github.io/The-Simpsons-Modal-JS/)
+This simple project is # Javascript modal with very funny video :)  (https://markodjuric.github.io/The-Simpsons-Modal-JS/)
 
 
 
